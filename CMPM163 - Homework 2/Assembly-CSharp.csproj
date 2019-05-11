@@ -53,13 +53,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CreateMesh.cs" />
+     <Compile Include="Assets\Scripts\CreateMeshSimple.cs" />
+     <Compile Include="Assets\Scripts\InputBloom.cs" />
+     <Compile Include="Assets\Scripts\InputHills.cs" />
+     <Compile Include="Assets\Scripts\KeyboardBloom.cs" />
      <Compile Include="Assets\Scripts\RenderEffectBloom.cs" />
-     <None Include="Assets\Shaders\Edge.shader" />
+     <None Include="Assets\Textures\ame_iceflats\ame_iceflats.shader" />
+     <None Include="Assets\Textures\ame_greywash\ame_greywash.shader" />
      <None Include="Assets\Shaders\Bloom.shader" />
-     <None Include="Assets\Shaders\Phong.shader" />
-     <None Include="Assets\Shaders\Texture.shader" />
+     <None Include="Assets\Shaders\Reflection.shader" />
+     <None Include="Assets\Shaders\Hill.shader" />
+     <None Include="Assets\Shaders\HillFromTexture.shader" />
      <None Include="Assets\Shaders\Outline.shader" />
-     <None Include="Assets\Shaders\Toon.shader" />
+     <None Include="Assets\Textures\ely_peaks\ely_peaks.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Cho_2/Desktop/programs/CM163/CMPM163-Homework2/CMPM163 - Homework 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

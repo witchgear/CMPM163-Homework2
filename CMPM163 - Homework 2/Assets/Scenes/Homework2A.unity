@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
+  - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -279,6 +280,23 @@ MonoBehaviour:
   BloomShader: {fileID: 4800000, guid: 0d9ea7c56bb7d4843a9efe0d0bea5fd2, type: 3}
   BloomFactor: 39.1
   LuminanceThreshold: 0.634
+--- !u!114 &534669907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a667225cbce3b4daa8e1ab837714ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomScript: {fileID: 534669906}
+  render: {fileID: 934612195}
+  bloomInterval: 5
+  luminanceInterval: 0.05
+  outlineInterval: 0.05
 --- !u!1001 &934612192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +426,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f5e30f2244e09fa4da0fc57bed63f9d5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2891841ca9f650a4b8a0b1f48b8dba9b, type: 3}
+--- !u!23 &934612195 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: 2891841ca9f650a4b8a0b1f48b8dba9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 934612192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &940449972
 GameObject:
   m_ObjectHideFlags: 0
